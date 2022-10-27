@@ -2,7 +2,7 @@
 
 ## Hosted at
 
-[to-do-planner](https://to-do-panner.vercel.app/)
+[to-do-planner](https://to-do-planner.vercel.app/)
 
 ## Project Setup
 
