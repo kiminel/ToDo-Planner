@@ -1,6 +1,6 @@
 <template>
   <div class="bg-auto  h-screen flex justify-center items-center"
-    style="background-image: url('../public/images/bg-pastel.jpg')">
+    style="background-image: url('./images/bg-pastel.jpg')">
     <ToDoList />
   </div>
 </template>
