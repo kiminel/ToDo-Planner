@@ -16,6 +16,13 @@
     npm run build
     npm run dev
 
+## About ToDo-Planner
+
+ - Add a new task in the InputField
+     - Empty fields cannot be submitted
+ - Edit created todos by updating the created ListItem text (it's also an InputField)
+ - Strikethrough todos by clicking the CheckBox
+ - Delete todos by clicking the trash-icon
 
 ## Project Details
 
