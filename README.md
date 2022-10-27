@@ -31,6 +31,7 @@ Covered the basics of Vue.js, such as
 - Attribute binding
 - Event Listeners
 - Form bindings
+- Conditional rendering
 - List rendering
 - Component relations
 
