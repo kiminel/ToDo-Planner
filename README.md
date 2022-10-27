@@ -1,5 +1,9 @@
 # ToDo-Planner
 
+## Hosted at
+
+[to-do-planner](https://link-url-here.org)
+
 ## Project Setup
 
 
@@ -9,6 +13,7 @@
 ## Compile and Hot-Reload for Development
 
 
+    npm run build
     npm run dev
 
 
