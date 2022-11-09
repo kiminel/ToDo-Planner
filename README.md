@@ -1,6 +1,6 @@
 # ToDo-Planner
 
-## Hosted at
+## Hosted via Vercel at
 
 [to-do-planner](https://to-do-planner.vercel.app/)
 
@@ -26,15 +26,7 @@
 
 ## Project Details
 
-Covered the basics of Vue.js, such as
-
-- Attribute binding
-- Event Listeners
-- Form bindings
-- Conditional rendering
-- List rendering
-- Component relations
-
-Implemented Tailwind for styling
+- Vue.js
+- Tailwind
 
 

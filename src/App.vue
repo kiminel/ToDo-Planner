@@ -1,6 +1,5 @@
 <template>
-  <div class="bg-auto  h-screen flex justify-center items-center"
-    style="background-image: url('./images/bg-pastel.jpg')">
+  <div class="bg-auto  h-screen flex justify-center items-center  bg-gradient-to-r from-cyan-400 to-blue-500">
     <ToDoList />
   </div>
 </template>
