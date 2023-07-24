@@ -1,22 +1,18 @@
-# ToDo-Planner
+# ToDo-Planner 📝
 
-## Hosted via Vercel at
+### Hosted Link:
 
-[to-do-planner](https://to-do-planner.vercel.app/)
+[To-Do Planner](https://to-do-planner.vercel.app/)
 
-## Project Setup
+### Local Startup
 
-
-    npm install 
-
-
-## Compile and Hot-Reload for Development
-
-
+    npm i
     npm run build
     npm run dev
 
-## About ToDo-Planner
+## About
+
+A simple to-do planner to learn the basics of Vue.js and Tailwind. 
 
  - Add a new task in the InputField
      - Empty fields cannot be submitted
@@ -24,9 +20,7 @@
  - Strikethrough todos by clicking the CheckBox
  - Delete todos by clicking the trash-icon
 
-## Project Details
+## Tech Stack
 
-- Vue.js
-- Tailwind
-
-
+- [Vue.js](https://vuejs.org/)
+- [Tailwind](https://tailwindcss.com/)
