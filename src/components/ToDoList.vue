@@ -6,7 +6,7 @@
     <input type="text" class="block mb-2 text-sm font-medium text-gray-900 bg-white w-full p-2 rounded-2xl pl-3"
       placeholder="Add a new task" v-model="todoInput" @keydown.enter="addTodo" />
     <ul class="space-y-2">
-      <ToDo v-for="(todo, index) in todos" :key="index" :todo="todo" @delete="deleteToDo" />
+      <ToDo v-for="(todo, index) in todos" :key="index" :todo="{...todo, ...{index: index}}" @delete="deleteToDo" />
     </ul>
 
   </div>

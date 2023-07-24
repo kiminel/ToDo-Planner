@@ -8,7 +8,7 @@
             <input ref="todoRef" type="text" v-else @keydown.enter="$event.target.blur()" @focusout="toggleEditing"
                 class="focus:outline-0" v-model="editableToDo.name" />
         </div>
-        <button @click="deleteToDo(index)">
+        <button @click="deleteToDo(editableToDo.index)">
             <TrashIcon class="w-5 h-5 hover:text-pink-600 transition duration-150" />
         </button>
 
@@ -24,6 +24,11 @@ export default {
     },
     props: {
         todo: { type: Object, required: true }
+    },
+    watch:{
+        todo (newTodo) {
+            this.editableToDo = newTodo;
+        },
     },
     data() {
         return {
